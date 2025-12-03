@@ -1,0 +1,49 @@
+nav {
+  display: flex;
+  gap: 1.5rem;
+
+  & a {
+    font-size: 0.9rem;
+    color: teal;
+  }
+
+  & a:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+  }
+
+  & a.active {
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 1441px) {
+  nav {
+    gap: 1.5rem;
+
+    & a {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media (max-width: 1281px) {
+  nav {
+    gap: 1.2rem;
+
+    & a {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  nav {
+    display: none;
+
+    & a {
+      font-size: 0.7rem;
+    }
+  }
+}
+

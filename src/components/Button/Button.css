@@ -1,0 +1,24 @@
+.btn {
+  text-align: center;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  background: #20bc2dff;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background: #1b9f26;
+  }
+}
+
+& .outline {
+  text-align: center;
+  background: none;
+  border: 1px solid #c5c0c0;
+  color: gray;
+
+  &:hover {
+    background: #edeaea;
+  }
+}
